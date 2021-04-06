@@ -1,0 +1,13 @@
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\bin\Debug\netcoreapp3.1\DemoStartUp.exe
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\bin\Debug\netcoreapp3.1\DemoStartUp.deps.json
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\bin\Debug\netcoreapp3.1\DemoStartUp.runtimeconfig.json
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\bin\Debug\netcoreapp3.1\DemoStartUp.runtimeconfig.dev.json
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\bin\Debug\netcoreapp3.1\DemoStartUp.dll
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\bin\Debug\netcoreapp3.1\DemoStartUp.pdb
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.csprojAssemblyReference.cache
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.AssemblyInfoInputs.cache
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.AssemblyInfo.cs
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.csproj.CoreCompileInputs.cache
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.dll
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.pdb
+D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.genruntimeconfig.cache
