@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DemoStartUp.Domain;
+using System;
 
 namespace DemoStartUp
 {
@@ -6,7 +7,8 @@ namespace DemoStartUp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var startupInstance = new StartUp();
+            startupInstance.Start();
         }
     }
 }
