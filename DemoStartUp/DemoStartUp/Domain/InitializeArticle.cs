@@ -47,8 +47,8 @@ namespace DemoStartUp.Domain
         /// <param name="modelArticles"></param>aa
         public void Rendering()
         {
-            //字典数据
-            var temDic=_modelArticles.GroupBy(item=>item.GroupId).ToDictionary(v=>v.Key,k=>k.Where(item=>item.GroupId==k.Key));
+            #region 渲染现有数据
+            var temDic =_modelArticles.GroupBy(item=>item.GroupId).ToDictionary(v=>v.Key,k=>k.Where(item=>item.GroupId==k.Key));
 
             var groups = new List<string>();
             var groupTem1 = temDic.GetValueOrDefault(1)?.Select(item => { return $"{item.Name}{item.Id}"; });
@@ -67,7 +67,9 @@ namespace DemoStartUp.Domain
             Console.WriteLine($"\n"+temStr);
 
             Console.WriteLine("请输入你要移除的编号(以逗号分隔,按Enter键结束):");
+            #endregion
 
+            //等待玩家操作
             PlayerOperate();
         }
 
@@ -97,7 +99,8 @@ namespace DemoStartUp.Domain
             catch(Exception e)
             {
                 Console.WriteLine("请输入正确格式! 如:\n1,2,3");
-                PlayerOperate();
+                PlayerOperate();//校验失败，重新执行此方法，等待输入
+                return;//跳出操作，终结递归
             }
 
             //校验输入规则
@@ -106,7 +109,8 @@ namespace DemoStartUp.Domain
             if(groupItem.Count()>1)
             {
                 Console.WriteLine($"Warning:只能在同一行选择您想要抽取的{_articleName}。请重新输入");
-                PlayerOperate();
+                PlayerOperate();//校验失败，重新执行此方法，等待输入
+                return;//跳出操作，终结递归
             }
 
             //移除
@@ -117,7 +121,7 @@ namespace DemoStartUp.Domain
             if (_modelArticles.Count() == 1)
             {
                 Console.WriteLine("\n---Game Over, You Win!---");
-                return;//返回,跳出操作
+                return;//跳出操作，终结递归
             }
 
             Console.WriteLine("操作成功，该下一个玩家操作!");

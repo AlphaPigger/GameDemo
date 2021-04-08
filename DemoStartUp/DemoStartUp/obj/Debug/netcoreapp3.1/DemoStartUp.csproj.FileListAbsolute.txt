@@ -10,4 +10,3 @@ D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcorea
 D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.dll
 D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.pdb
 D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.genruntimeconfig.cache
-D:\田林青\学习\Projects\GameDemo\DemoStartUp\DemoStartUp\obj\Debug\netcoreapp3.1\DemoStartUp.csprojAssemblyReference.cache
